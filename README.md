@@ -2,7 +2,7 @@
 
 ## Business Problem
 Sales teams without centralised reporting rely on manual Excel 
-work to track regional performance and product profitability — 
+work to track regional performance and product profitability, 
 a process that is slow, inconsistent, and difficult to scale. 
 This project demonstrates the end-to-end analytical workflow 
 a Business Analyst would follow to replace that with a 
