@@ -11,7 +11,7 @@ self-serve reporting solution.
 ## What I Built
 An interactive Power BI dashboard analysing 9,994 rows of 
 retail sales data across regions, product categories, and 
-time periods. All visuals cross-filter each other — clicking 
+time periods. All visuals cross-filter each other. Clicking 
 any data point instantly updates the entire dashboard, 
 enabling dynamic, self-serve analysis without technical 
 knowledge.
@@ -29,17 +29,17 @@ knowledge.
 
 ## Key Business Insights
 - **Regional gap**: West leads revenue at $725,458 but East 
-  is only 7% behind at $678,781 — worth investigating whether 
+  is only 7% behind at $678,781, worth investigating whether 
   East has untapped growth potential
 - **Profitability vs volume**: Technology has the best profit 
   margin at 17.4% despite not always having the highest sales 
-  volume — the business should prioritise Technology over 
+  volume, the business should prioritise Technology over 
   Furniture where margins are thin
 - **Loss-making sub-categories**: Tables and Bookcases show 
-  negative profit despite high sales — a clear pricing or 
+  negative profit despite high sales, a clear pricing or 
   cost structure issue requiring immediate review
 - **Seasonality**: Q4 shows a consistent revenue spike across 
-  all four years — inventory and staffing should be planned 
+  all four years. Inventory and staffing should be planned 
   ahead of October each year
 
 ## Technical Decisions
@@ -47,9 +47,9 @@ knowledge.
 ### Why CSV instead of a live database connection
 The data was loaded directly from CSV into Power BI rather 
 than via an ODBC database connection. This was a deliberate 
-choice for portability — the CSV approach means anyone can 
+choice for portability (the CSV approach means anyone can 
 download the repository and open the dashboard immediately 
-without configuring a local database. In a production 
+without configuring a local database). In a production 
 environment, I would connect Power BI directly to a live 
 MySQL or PostgreSQL database with scheduled refresh, which 
 is the approach I use in my professional work.
